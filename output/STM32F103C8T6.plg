@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+I:\Users\AI\Desktop\伺服同步系统\主站伺服系统 -  调试\user\STM32F103C8T6.uvproj
+Project File Date:  05/20/2016
+
+<h2>Output:</h2>
+Build target 'STM32F103C8T6'
+compiling Control.C...
+linking...
+Program Size: Code=19808 RO-data=268 RW-data=212 ZI-data=2228  
+"..\output\STM32F103C8T6.axf" - 0 Errors, 0 Warning(s).
+Build target 'STM32F103C8T6'
+linking...
+Program Size: Code=19808 RO-data=268 RW-data=212 ZI-data=2228  
+"..\output\STM32F103C8T6.axf" - 0 Errors, 0 Warning(s).
+Build target 'STM32F103C8T6'
+compiling Control.C...
+linking...
+Program Size: Code=19808 RO-data=268 RW-data=212 ZI-data=2228  
+"..\output\STM32F103C8T6.axf" - 0 Errors, 0 Warning(s).
+Load "..\\output\\STM32F103C8T6.axf" 
+Set JLink Project File to "I:\Users\AI\Desktop\伺服同步系统\主站伺服系统 -  调试\user\JLinkSettings.ini"
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.90 , compiled Jul 28 2014 10:35:20
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 20160505 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 1000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F103C8T6'
+compiling Control.C...
+linking...
+Program Size: Code=19808 RO-data=268 RW-data=212 ZI-data=2228  
+"..\output\STM32F103C8T6.axf" - 0 Errors, 0 Warning(s).
+Load "..\\output\\STM32F103C8T6.axf" 
+Build target 'STM32F103C8T6'
+compiling Control.C...
+linking...
+Program Size: Code=19928 RO-data=268 RW-data=212 ZI-data=2228  
+"..\output\STM32F103C8T6.axf" - 0 Errors, 0 Warning(s).
+Load "..\\output\\STM32F103C8T6.axf" 
+Set JLink Project File to "I:\Users\AI\Desktop\伺服同步系统\主站伺服系统 -  调试\user\JLinkSettings.ini"
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.90 , compiled Jul 28 2014 10:35:20
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N : 20160505 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+VTarget = 3.293V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 1000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"..\output\misc.o"
+"..\output\stm32f10x_dma.o"
+"..\output\stm32f10x_exti.o"
+"..\output\stm32f10x_gpio.o"
+"..\output\stm32f10x_iwdg.o"
+"..\output\stm32f10x_rcc.o"
+"..\output\stm32f10x_tim.o"
+"..\output\stm32f10x_usart.o"
+"..\output\stm32f10x_can.o"
+"..\output\stm32f10x_adc.o"
+"..\output\core_cm3.o"
+"..\output\system_stm32f10x.o"
+"..\output\main.o"
+"..\output\startup_stm32f10x_md.o"
+"..\output\delay.o"
+"..\output\pid.o"
+"..\output\sysinit.o"
+"..\output\can1.o"
+"..\output\control.o"
+"..\output\ai.o"
+"..\output\usart1.o"
+--strict --scatter "..\output\STM32F103C8T6.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\listing\STM32F103C8T6.map" -o ..\output\STM32F103C8T6.axf
